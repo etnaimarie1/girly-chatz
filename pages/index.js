@@ -1,12 +1,13 @@
 import React from "react";
 import fetch from "isomorphic-unfetch";
-
+import { TopicJumbotron} from "../components/jumbotron"
 import { Navigation } from "../components/site";
 import { TopicCard } from "../components/card";
 import { TopicCard2 } from "../components/card2";
 import "../styles.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Container, Row, Col } from "react-bootstrap";
+
 function App({ topics }) {
   return (
     <Container>

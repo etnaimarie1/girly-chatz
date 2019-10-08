@@ -7,7 +7,7 @@ export function TopicCard({ uuid, name, description }) {
       <Card.Body>
         <Card.Title>{name}</Card.Title>
         <Card.Text>{description}</Card.Text>
-        <Card.Link href="/topic">Open topic</Card.Link>
+        <Card.Link href={"/topic?uuid="+uuid}>Open topic</Card.Link>
       </Card.Body>
     </Card>
   );
